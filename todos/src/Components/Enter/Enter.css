@@ -1,0 +1,28 @@
+.Enter {
+    position: relative;
+    width: 100%;
+}
+.Enter__input {
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    padding: 16px 16px 16px 60px;
+    background-color: #FEFEFE;
+    border: none;
+    box-shadow:inset 0 -2px 1px rgba(0,0,0,0.03);
+    font-size: 24px;
+    color: #4D4D4D;
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color: #E6E6E6;
+    font-style: italic;
+}
+
+.SelectAll {
+    position: absolute;
+    width: 20px;
+    height:20px;
+    top: 1.2em;
+    left:14px;
+}

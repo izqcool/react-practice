@@ -1,0 +1,104 @@
+.Item {
+    width: 100%;
+}
+.Item_list {
+    position: relative;
+    width: 100%;
+    height: 58px;
+    background-color: #fff;
+    border:1px solid #ededed;
+    /*margin-bottom: -1px;*/
+}
+.Item_list:hover .Item_list--delete {
+    display: inline-block;
+}
+.Item_list__input {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.Item_list__icon {
+    float: left;
+    width: 30px;
+    margin: 14px 10px;
+    height: 30px;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+}
+.Item_list__icon--choose {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    color: green;
+}
+.Item_list__icon--no_choose {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    line-height: 34px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    color: transparent;
+}
+.Item_list__ul {
+    width: 476px;
+    padding: 0 10px;
+    line-height:58px;
+    margin-left: 50px;
+ }
+
+.Item_list__li--choose,
+.Item_list__li--no_choose {
+    float: left;
+    width: 436px;
+    overflow: hidden;
+    font-size: 24px;
+}
+.Item_list__li--choose {
+    color: #D9D9D9;
+    text-decoration: line-through;
+}
+.Item_list__li--no_choose {
+    color: #4D4D4D;
+}
+
+.Item_list--delete {
+    display: none;
+    float: right;
+    width: 24px;
+    line-height: 24px;
+    margin-top: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    color: #cc9a9a;
+}
+.Item_list--delete:hover {
+    color: red;
+}
+
+
+.Item__input--show {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    line-height: 54px;
+    margin: 0 1% 0 1%;
+    padding-left: 8%;
+    font-size: 24px;
+    text-indent: 9px;
+    color: #4D4D4D;
+    outline: none;
+}
+
+.Item__input--hide{
+    display: none;
+}
